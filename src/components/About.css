@@ -1,0 +1,53 @@
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 3rem 1rem;
+  background: #121826; /* Solid color matching wave divider */
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+}
+
+
+.about-content {
+  background: rgba(255, 255, 255, 0.07); /* Subtle frosted glass */
+  backdrop-filter: blur(15px);
+  padding: 2.5rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+  max-width: 750px;
+}
+
+.about-content h2 {
+  font-size: 2.5rem;
+  color: #61dafb; /* React blue highlight */
+  margin-bottom: 1.2rem;
+}
+
+.about-content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #e0e0e0;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  background: #61dafb; /* Button matches highlight color */
+  color: #1f1f47;
+  padding: 0.8rem 2rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  box-shadow: 0 8px 20px rgba(97, 218, 251, 0.3);
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: #ffffff;
+  color: #2c5364;
+  transform: translateY(-3px);
+}
